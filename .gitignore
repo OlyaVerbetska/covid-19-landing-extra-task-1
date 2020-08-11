@@ -105,3 +105,6 @@ dist
 
 # Ignore Visual Studio Code workspace settings file.
 .vscode/settings.json
+
+# Ignore Prettier Settings.
+.prettierrc.json
