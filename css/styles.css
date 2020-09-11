@@ -1,0 +1,184 @@
+:root {
+  --text-color: #4b4f51;
+  --accent-color: #fb4c47;
+  --accent-color-secondary: #ff383d;
+  --accent-color-title: #fa5652;
+  --title-color: #035755;
+  --button-bg-color: rgba(250, 86, 82, 0.15);
+  --white-color: #ffffff;
+}
+body {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  text-transform: capitalize;
+}
+/* Styles for time */
+section {
+  outline: 2px solid red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+/* Header */
+/* logo */
+.logo {
+  font-family: Red Hat Display, sans-serif;
+
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.32;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+/* navigation */
+.nav-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: var(--title-color);
+}
+.nav-item:hover a {
+  color: var(--accent-color);
+}
+/* contacts header button */
+.contact-button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: var(--accent-color);
+
+  border: 2px solid var(--accent-color-secondary);
+  border-radius: 46px;
+}
+
+.contact-button:hover,
+.contact-button:focus {
+  cursor: pointer;
+}
+
+/* Hero */
+
+.hero-title,
+.hero-text-alert {
+  font-family: Red Hat Display;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.22;
+
+  color: var(--accent-color-title);
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.9;
+
+  color: var(--text-color);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.21;
+
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 65px;
+  box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: 0;
+}
+.hero-button:hover,
+.hero-button:focus {
+  cursor: pointer;
+}
+/* Overview */
+.title {
+  font-family: Red Hat Display;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 1.24;
+
+  color: var(--accent-color-title);
+}
+
+.subtitle {
+  font-family: Red Hat Display;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.19;
+
+  color: var(--title-color);
+}
+.overview-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2.15;
+
+  color: var(--text-color);
+}
+.overview-button {
+  display: inline-block;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--accent-color-title);
+  background-color: var(--button-bg-color);
+
+  border-radius: 65px;
+}
+/* Contagion */
+.section-text {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 2.15;
+
+  color: var(--text-color);
+}
+.contagion-item-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.47;
+
+  color: var(--title-color);
+}
+.contagion-item-text {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 1.85;
+
+  color: var(--text-color);
+}
+/* Prevention */
+.prevention-item-title {
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 1.47;
+
+  color: var(--title-color);
+}
+.prevention-item-text {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 2.21;
+
+  color: var(--text-color);
+}

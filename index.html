@@ -3,142 +3,149 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      COVID - 19
-    </title>
+    <title>COVID - 19</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
     <!--img must be change-->
     <header>
-      <a href="">
-        <img src="./images/logo.svg" alt="logo" width="63" height="63" />
+      <a href="" class="logo">
+        <!-- <img src="./images/logo.svg" alt="logo" width="63" height="63" /> -->
         COVID - 19
       </a>
       <nav>
-        <ul>
-          <li><a href="#overview">Overview</a></li>
-          <li><a href="#contagion">Contagion</a></li>
-          <li><a href="#symptoms">Symptoms</a></li>
-          <li><a href="#prevention">Prevention</a></li>
-        </ul>
-        <ul>
-          <a href="">Contacts</a>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#overview">Overview</a></li>
+          <li class="nav-item"><a href="#contagion">Contagion</a></li>
+          <li class="nav-item"><a href="#symptoms">Symptoms</a></li>
+          <li class="nav-item"><a href="#prevention">Prevention</a></li>
         </ul>
       </nav>
+      <button type="button" class="contact-button">Contacts</button>
     </header>
-    <!-- Hero -->
-    <section>
-      <h3>COVID-19 Alert</h3>
-      <h1>
-        Stay at Home quarantine <br />
-        To stop Corona virus
-      </h1>
-      <p>There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to .</p>
-      <a href="">Let Us Help</a>
-    </section>
-    <!-- Overview -->
-    <!--img must change-->
-    <section>
-      <img src="./images/coronavirus.jpg" alt="Coronavirus" width="745" />
-      <h3>What Is Covid-19</h3>
-      <h2 id="overview">Coronavirus</h2>
-      <p>
-        Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent
-        outbreak of respiratory illness now called COVID-19.Lauren Sauer, M.S., the director of operations with the Johns Hopkins Office of Critical
-        Event Preparedness and Response
-      </p>
-      <a href="">Learn More</a>
-    </section>
-    <!-- Contagion -->
-    <!-- add icons -->
-    <section>
-      <h3>Covid-19</h3>
-      <h2 id="contagion">Contagion</h2>
-      <p>Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type</p>
-      <ul>
-        <li>
-          <h4>Air Transmission</h4>
-          <p>Objectively evolve tactical expertise before extensible initiatives. Efficiently simplify</p>
-        </li>
-        <li>
-          <h4>Human Contacts</h4>
-          <p>Washing your hands is one of thesimplest ways you can protect</p>
-        </li>
-        <li>
-          <h4>Containted Objects</h4>
-          <p>Use the tissue while sneezing,In this way, you can protect your droplets.</p>
-        </li>
-      </ul>
-    </section>
-    <!-- Symptomps -->
-    <section>
-      <h3>Covid-19</h3>
-      <h2 id="symptoms">Symptomps</h2>
-      <p>
-        Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent
-        outbreak of respiratory
-      </p>
-      <img src="./images/15444.jpg" alt="Coronavirus Symptoms" width="1167" />
-    </section>
-    <!--Prevention-->
-    <section>
-      <h3>Covid-19</h3>
-      <h2 id="prevention">What should we do</h2>
-      <p>Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused</p>
-      <ol>
-        <li>
-          <h4>Wear Masks</h4>
-          <p>
-            Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested
-            meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively
-          </p>
-          <img src="./images/mask-girl-01.jpg" alt="Girl in mask" width="555" />
-        </li>
-        <li>
-          <h4>Wash Your Hands</h4>
-          <p>
-            Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested
-            meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively
-            Continually seize impactful vortals
-          </p>
-          <img src="./images/mask-girl-02.jpg" alt="Girl in mask" width="555" />
-        </li>
-        <li>
-          <h4>Use nose - rag</h4>
-          <p>
-            Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested
-            meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively
-          </p>
-          <img src="./images/mask-girl-03.jpg" alt="Girl in mask" width="555" />
-        </li>
-        <li>
-          <h4>Avoid contacts</h4>
-          <p>
-            Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested
-            meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic
-          </p>
-          <img src="./images/mask-girl-04.jpg" alt="Girl in mask" width="555" />
-        </li>
-      </ol>
-    </section>
-    <!-- Map -->
-    <!-- Maybe iframe -->
-    <section>
-      <i>there will be a map and live reports table</i>
-    </section>
-    <!-- Form -->
-    <!-- Being later -->
-    <section>
-      <i>there will be a contact form</i>
-    </section>
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <h1 class="hero-title">COVID-19 Alert</h1>
+        <p class="hero-text-alert">
+          Stay at Home quarantine <br />
+          To stop Corona virus
+        </p>
+        <p class="hero-text">
+          There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to .
+        </p>
+        <button type="button" class="hero-button">Let Us Help</button>
+      </section>
+      <!-- Overview -->
+
+      <section class="overview">
+        <!-- <img src="./images/coronavirus.jpg" alt="Coronavirus" width="745" /> -->
+        <h3 class="title">What Is Covid-19</h3>
+        <h2 class="subtitle" id="overview">Coronavirus</h2>
+        <p class="overview-text">
+          Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent
+          outbreak of respiratory illness now called COVID-19.Lauren Sauer, M.S., the director of operations with the Johns Hopkins Office of Critical
+          Event Preparedness and Response
+        </p>
+        <a class="overview-button" href="">Learn More</a>
+      </section>
+      <!-- Contagion -->
+
+      <section>
+        <h3 class="title">Covid-19</h3>
+        <h2 class="subtitle" id="contagion">Contagion</h2>
+        <p class="section-text">
+          Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type
+        </p>
+        <ul class="contagion-list">
+          <li class="contagion-item">
+            <h4 class="contagion-item-title">Air Transmission</h4>
+            <p class="contagion-item-text">Objectively evolve tactical expertise before extensible initiatives. Efficiently simplify</p>
+          </li>
+          <li class="contagion-item">
+            <h4 class="contagion-item-title">Human Contacts</h4>
+            <p class="contagion-item-text">Washing your hands is one of thesimplest ways you can protect</p>
+          </li>
+          <li class="contagion-item">
+            <h4 class="contagion-item-title">Containted Objects</h4>
+            <p class="contagion-item-text">Use the tissue while sneezing,In this way, you can protect your droplets.</p>
+          </li>
+        </ul>
+      </section>
+      <!-- Symptomps -->
+      <section>
+        <h3 class="title">Covid-19</h3>
+        <h2 class="subtitle" id="symptoms">Symptomps</h2>
+        <p class="section-text">
+          Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent
+          outbreak of respiratory
+        </p>
+        <img src="./images/15444.jpg" alt="Coronavirus Symptoms" width="1167" />
+      </section>
+      <!--Prevention-->
+      <section>
+        <h3 class="title">Covid-19</h3>
+        <h2 class="subtitle" id="prevention">What should we do</h2>
+        <p class="section-text">
+          Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused
+        </p>
+        <ul class="prevention-list">
+          <li class="prevention-item">
+            <h4 class="prevention-item-title">Wear Masks</h4>
+            <p class="prevention-item-text">
+              Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested
+              meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively
+            </p>
+            <!-- <img src="./images/mask-girl-01.jpg" alt="Girl in mask" width="555" /> -->
+          </li>
+          <li class="prevention-item">
+            <h4 class="prevention-item-title">Wash Your Hands</h4>
+            <p class="prevention-item-text">
+              Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested
+              meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively
+              Continually seize impactful vortals
+            </p>
+            <!-- <img src="./images/mask-girl-02.jpg" alt="Girl in mask" width="555" /> -->
+          </li>
+          <li class="prevention-item">
+            <h4 class="prevention-item-title">Use nose - rag</h4>
+            <p class="prevention-item-text">
+              Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested
+              meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively
+            </p>
+            <!-- <img src="./images/mask-girl-03.jpg" alt="Girl in mask" width="555" /> -->
+          </li>
+          <li class="prevention-item">
+            <h4 class="prevention-item-title">Avoid contacts</h4>
+            <p class="prevention-item-text">
+              Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested
+              meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic
+            </p>
+            <!-- <img src="./images/mask-girl-04.jpg" alt="Girl in mask" width="555" /> -->
+          </li>
+        </ul>
+      </section>
+      <!-- Map -->
+      <!-- Maybe iframe -->
+      <section>
+        <i>there will be a map and live reports table</i>
+      </section>
+      <!-- Form -->
+      <!-- Being later -->
+      <section>
+        <i>there will be a contact form</i>
+      </section>
+    </main>
     <!-- Footer -->
     <footer>
-      <a href="">
-        <img src="./images/logo.svg" alt="logo" width="63" height="63" />
+      <a href="" class="logo">
+        <!-- <img src="./images/logo.svg" alt="logo" width="63" height="63" /> -->
         COVID - 19
       </a>
-      <ul>
+      <ul class="footer-menu">
         <li><a href="">Overview</a></li>
         <li><a href="">Symptoms</a></li>
         <li><a href="">Prevention</a></li>
