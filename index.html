@@ -11,20 +11,25 @@
   <body>
     <!-- Header -->
     <!--img must be change-->
-    <header>
+    <header class="header">
+      <div class="container flexbox">
       <a href="" class="logo">
-        <!-- <img src="./images/logo.svg" alt="logo" width="63" height="63" /> -->
-        COVID - 19
-      </a>
+        <svg width="63px" height="63px">
+          <use href="./images/sprite.svg#icon-logo" ></use>
+        </svg>
+        <span>COVID - 19</span> 
+              </a>
       <nav>
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#overview">Overview</a></li>
-          <li class="nav-item"><a href="#contagion">Contagion</a></li>
-          <li class="nav-item"><a href="#symptoms">Symptoms</a></li>
-          <li class="nav-item"><a href="#prevention">Prevention</a></li>
-        </ul>
+        <ul class="nav-list flexbox">
+          <li class="nav-item"><a class="nav-item-link" href="#overview">Overview</a></li>
+          <li class="nav-item"><a class="nav-item-link" href="#contagion">Contagion</a></li>
+          <li class="nav-item"><a class="nav-item-link" href="#symptoms">Symptoms</a></li>
+          <li class="nav-item"><a class="nav-item-link" href="#prevention">Prevention</a></li>
+          
+                 </ul>
       </nav>
       <button type="button" class="contact-button">Contacts</button>
+    </div>
     </header>
     <main>
       <!-- Hero -->
@@ -146,10 +151,10 @@
         COVID - 19
       </a>
       <ul class="footer-menu">
-        <li><a href="">Overview</a></li>
-        <li><a href="">Symptoms</a></li>
-        <li><a href="">Prevention</a></li>
-        <li><a href="">Treatment</a></li>
+        <li class="footer-menu-item"><a class="footer-menu-link" href="">Overview</a></li>
+        <li class="footer-menu-item"><a class="footer-menu-link" href="">Symptoms</a></li>
+        <li class="footer-menu-item"><a class="footer-menu-link" href="">Prevention</a></li>
+        <li class="footer-menu-item"><a class="footer-menu-link" href="">Treatment</a></li>
       </ul>
       <ul>
         <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
@@ -157,7 +162,7 @@
         <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
         <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
       </ul>
-      <p>2020 &#64; All rights reserved by pixelspark.co</p>
+      <p class="copyright">2020 &#64; All rights reserved by pixelspark.co</p>
     </footer>
   </body>
 </html>
