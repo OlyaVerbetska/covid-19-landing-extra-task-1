@@ -134,7 +134,7 @@ p {
 .hero-text-alert {
   max-width: 635px;
 
-  font-family: Red Hat Display;
+  font-family: Red Hat Display, sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 1.22;
@@ -177,12 +177,25 @@ p {
   cursor: pointer;
 }
 /* Overview */
-.overview {
-  padding: 101px 0 64px 0;
+.overview .container {
+  padding: 101px 62px 64px 0;
 }
+
 .overview .container::before {
+  display: block;
   content: "";
+  /* width: 960px;
+  height: 957px; */
+  /* height: 100%; */
+  flex-basis: calc((100% - 30px) / 2);
+
   background-image: url(../images/coronavirus.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.overview-description {
+  flex-basis: calc((100% - 30px) / 2);
 }
 .title {
   margin-bottom: 13px;
