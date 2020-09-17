@@ -182,17 +182,23 @@ p {
 }
 
 .overview .container::before {
-  display: block;
+  /* display: block;
   content: "";
   /* width: 960px;
   height: 957px; */
   /* height: 100%; */
-  flex-basis: calc((100% - 30px) / 2);
+  /* flex-basis: calc((100% - 30px) / 2);
 
   background-image: url(../images/coronavirus.jpg);
   background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  content: "";
+  background-image: url(../images/coronavirus.jpg);
+  width: 611px;
+  height: 537px;
+  display: block;
+  background-size: contain;
 }
 .overview-description {
   flex-basis: calc((100% - 30px) / 2);
